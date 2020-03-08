@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+}
+.button {
+    border-radius: 12px;
+    background-color: #3b5998;
+    border: none;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    margin: 4px 2px;
+    padding: 20px;
+    color: #ffffff;
+    cursor: pointer;
+}
+.button:hover {
+    background-color: #29487d;
+}
+.button:active{
+    background-color: #29487d;
+    transform: translateY(4px);
+}
