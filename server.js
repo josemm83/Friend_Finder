@@ -4,7 +4,7 @@ var path = require("path");
 var app = express();
 var PORT = process.env.PORT || 8080;
 
-app.use(express.static(__dirname + "/app/public/css"));
+app.use(express.static(__dirname, "/app/public"));
 
 require("./app/routing/apiRoutes");
 require("./app/routing/htmlRoutes");
